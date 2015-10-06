@@ -30,13 +30,3 @@ Generator.prototype.getRandomPosition = function(array) {
 Generator.prototype.getRandomName = function(names) {
         return names[this.getRandomPosition(names)];
 }
-    //Add your codez here
-
-
-$(document).ready(function() {
-
-    var engine = new Generator;
-    var name = engine.generateName("Tirth");
-    console.log(name);
-
-});
